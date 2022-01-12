@@ -1,0 +1,40 @@
+{
+  "name": "nn-expo-push-notifications",
+  "version": "1.0.4",
+  "description": "React Native Expo Push Notifications by https://NativeNotify.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeNotify/nn-expo-push-notifications.git"
+  },
+  "keywords": [
+    "expo",
+    "push",
+    "notifications",
+    "react",
+    "native",
+    "notify",
+    "expo push notifications",
+    "expo push notification",
+    "react native push notifications",
+    "react native push notification",
+    "expo push notifications react native",
+    "expo push notification react native",
+    "react native expo push notifications",
+    "react native expo push notification",
+    "native notify",
+    "native notify push notifications"
+  ],
+  "author": "Native Notify, INC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NativeNotify/nn-expo-push-notifications/issues"
+  },
+  "homepage": "https://github.com/NativeNotify/nn-expo-push-notifications#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
