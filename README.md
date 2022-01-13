@@ -1,4 +1,4 @@
-# native-notify
+# nn-expo-push-notifications
 
 ### You must create a free NativeNotify.com account to receive an App Id and an App Token, or nn-expo-push-notifications won't work.
 ### Go to https://NativeNotify.com to sign up for free, no credit card required.
@@ -6,9 +6,12 @@
 <br/>
 
 ## What is Native Notify?
-Native Notify is a React Native Expo Push Notifications service. Native Notify makes React Native Expo Push Notifications simple. With this native-notify plugin, you can send your first push notification in under 1 minute.
+Native Notify is a React Native Expo Push Notification service. Native Notify makes React Native Expo Push Notifications simple. With this native-notify plugin, you can send your first push notification in under 1 minute.
 <br/><br/>
 Sign up for https://NativeNotify.com for free. No credit card required.
+
+## Does native-notify work in Expo managed-workflow?
+Yes, native-notify works in Expo managed-workflow or Expo bare-workflow. You do NOT have to eject out of Expo to use native-notify.
 
 ## Install
 ```
