@@ -1,4 +1,4 @@
-# nn-expo-push-notifications
+# native-notify
 
 ### You must create a free NativeNotify.com account to receive an App Id and an App Token, or nn-expo-push-notifications won't work.
 ### Go to https://NativeNotify.com to sign up for free, no credit card required.

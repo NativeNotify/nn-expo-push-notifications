@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NativeNotify/nn-expo-push-notifications.git"
+    "url": "git+https://github.com/NativeNotify/native-notify.git"
   },
   "keywords": [
     "expo",
@@ -31,9 +31,9 @@
   "author": "Native Notify, INC",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NativeNotify/nn-expo-push-notifications/issues"
+    "url": "https://github.com/NativeNotify/native-notify/issues"
   },
-  "homepage": "https://github.com/NativeNotify/nn-expo-push-notifications#readme",
+  "homepage": "https://github.com/NativeNotify/native-notify#readme",
   "dependencies": {
     "axios": "^0.24.0",
     "expo-device": "~4.1.0",
