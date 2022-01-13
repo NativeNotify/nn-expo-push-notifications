@@ -8,7 +8,6 @@
 ## Install
 ```
 npm i nn-expo-push-notifications 
-<br/>
 expo install expo-device expo-notifications
 ```
 
