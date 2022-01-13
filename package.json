@@ -1,6 +1,6 @@
 {
   "name": "nn-expo-push-notifications",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Native Expo Push Notifications by https://NativeNotify.com.",
   "main": "index.js",
   "scripts": {
@@ -35,6 +35,8 @@
   },
   "homepage": "https://github.com/NativeNotify/nn-expo-push-notifications#readme",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "expo-device": "~4.1.0",
+    "expo-notifications": "~0.14.0"
   }
 }
