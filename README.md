@@ -29,5 +29,5 @@ The registerNNPushToken will register your user's Native Notify push notificatio
 <br/><br/>
 You can send data objects with your Native Notify push notifications. Once a user taps on your Native Notify push notification, the value of the data object will be returned to this dataObject variable. You can use this value to do things like redirect your users to a particular screen once a Native Notify push notification is tapped.
 
-## Show Your Support
+## Show your support
 Give a ⭐️ if this project helped you!
