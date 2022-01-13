@@ -1,9 +1,14 @@
-# nn-expo-push-notifications
+# native-notify
 
-### You must create a free NativeNotify.com account to receive an App Id and and App Token, or nn-expo-push-notifications won't work.
+### You must create a free NativeNotify.com account to receive an App Id and an App Token, or nn-expo-push-notifications won't work.
 ### Go to https://NativeNotify.com to sign up for free, no credit card required.
 
 <br/>
+
+## What is Native Notify?
+Native Notify is a React Native Expo Push Notifications service. Native Notify makes React Native Expo Push Notifications simple. With this native-notify plugin, you can send your first push notification in under 1 minute.
+<br/><br/>
+Sign up for https://NativeNotify.com for free. No credit card required.
 
 ## Install
 ```
