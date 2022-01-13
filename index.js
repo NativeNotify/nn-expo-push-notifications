@@ -34,6 +34,7 @@ async function registerForPushNotificationsAsync() {
 
 export default function registerNNPushToken(appId, appToken) {
     const [data, setData] = useState({});
+    const signUpMessage = 'You must sign up for a free https://NativeNotify.com account to receive an App Id and an App Token, or this plugin will not work. Go to https://NativeNotify.com to sign up for free, no credit card required. Click "Create an App" after logging in and follow the instructions.'
 
     const responseListener = useRef();
 
@@ -46,16 +47,19 @@ export default function registerNNPushToken(appId, appToken) {
                 console.log(response.notification.request.content.data);
                 if(response.notification.request.content.data) {
                     setData(response.notification.request.content.data);
+                } else {
+                    setData({ dataObjectExample: "If you send a data object with your NativeNotify.com push notification, it will appear here once your user taps on your push notification. You can use this data object to do things like redirect your user to a specific screen other than the home screen." })
                 }
-                // If you send a Data Object with your push notification,
-                // your Data Object will return here within 'response.notification.request.content.data' once your user taps on your push notification.
-                // You can use a Data Object value to redirect your user to a certain screen based on the value of your Data Object
-                    // Your Data Object should always return if the app is in the foreground or background when push notification is clicked.
-                    // Your Data Object may not return if the app is killed when push notification is clicked.
             });
             return () => { Notifications.removeNotificationSubscription(responseListener); };
         }
     });
 
-    return data;
+    if(appId && appToken) {
+        return data;
+    } else {
+        return signUpMessage;
+    }
+
+    
 }
