@@ -72,3 +72,17 @@ export async function registerIndieID(subID, appId, appToken) {
         }
     }
 }
+
+export function getPushDataObject() {
+    const [data, setData] = useState({});
+
+    const responseListener = useRef();
+
+    responseListener.current = Notifications.addNotificationResponseReceivedListener(response => {
+        setData(response.notification.request.content.data);
+    });
+
+    Notifications.removeNotificationSubscription(responseListener);
+
+    return data;
+}
